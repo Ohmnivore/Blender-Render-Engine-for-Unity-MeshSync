@@ -1,0 +1,5 @@
+LIBRARY EditorRefresh
+EXPORTS
+    DetourFinishHelperProcess @1 NONAME
+    SetDebugLog = SetDebugLog
+    SetEnabled = SetEnabled

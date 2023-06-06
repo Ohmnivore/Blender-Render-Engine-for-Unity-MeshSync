@@ -1,0 +1,48 @@
+{
+    "name": "BlenderBridge",
+    "rootNamespace": "BlenderBridge",
+    "references": [
+        "BlenderBridge.MeshSyncInterop",
+        "Unity.RenderPipelines.Core.Runtime",
+        "Unity.RenderPipelines.HighDefinition.Runtime",
+        "Unity.RenderPipelines.HighDefinition.Config.Runtime",
+        "Unity.RenderPipelines.Universal.Runtime",
+        "Klak.Spout.Editor",
+        "Klak.Spout.Runtime"
+    ],
+    "includePlatforms": [
+        "Editor",
+        "WindowsStandalone64"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "UNITY_EDITOR_WIN || UNITY_STANDALONE_WIN"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.unity.render-pipelines.high-definition",
+            "expression": "14.0.5",
+            "define": "HDRP"
+        },
+        {
+            "name": "com.unity.render-pipelines.universal",
+            "expression": "14.0.5",
+            "define": "URP"
+        },
+        {
+            "name": "com.unity.meshsync",
+            "expression": "0.17.2-preview",
+            "define": "USE_MESH_SYNC"
+        },
+        {
+            "name": "jp.keijiro.klak.spout",
+            "expression": "2.0.3",
+            "define": "USE_SPOUT"
+        }
+    ],
+    "noEngineReferences": false
+}

@@ -1,0 +1,30 @@
+.blender-bridge-settings-container
+{
+    margin-left: 9px;
+}
+
+.blender-bridge-settings-title
+{
+    margin-top: 1px;
+    margin-bottom: 8px;
+    margin-left: 9px;
+    
+    font-size: 20px;
+    -unity-font-style: bold;
+}
+
+.blender-bridge-settings-wide-button
+{
+    margin-top: 16px;
+}
+
+.unity-property-field__label,
+.unity-foldout__text
+{
+    -unity-font-style: bold;
+}
+
+.blender-bridge-settings-health-monitor .unity-toggle > .unity-property-field__label
+{
+    -unity-font-style: normal;
+}

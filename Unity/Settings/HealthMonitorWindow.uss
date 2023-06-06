@@ -1,0 +1,58 @@
+HealthMonitorTargetElement
+{
+    flex-shrink: 0;
+}
+
+.unity-foldout
+{
+    border-bottom-width: 1px;
+    border-bottom-color: var(--unity-colors-toolbar-border);
+}
+
+.unity-foldout__toggle
+{
+    height: 24px;
+    
+    margin-bottom: 0px;
+
+    background-color: var(--unity-colors-inspector_titlebar-background);
+}
+
+.unity-foldout__toggle:hover,
+.unity-foldout__toggle:active
+{
+    background-color: var(--unity-colors-toolbar_button-background-hover);
+}
+
+.unity-foldout__content
+{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    
+    border-top-width: 1px;
+    border-top-color: var(--unity-colors-inspector_titlebar-border_accent);
+}
+
+.status-icon
+{
+    width: 9px;
+    height: 9px;
+    
+    margin-right: 9px;
+    
+    align-self: center;
+    
+    border-radius: 4px;
+    
+    background-color: white;
+}
+
+.status-icon-inactive
+{
+    background-color: #f93652;
+}
+
+.status-icon-active
+{
+    background-color: #76b217;
+}

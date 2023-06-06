@@ -1,0 +1,26 @@
+{
+    "name": "BlenderBridge.MeshSyncInterop",
+    "rootNamespace": "BlenderBridge.MeshSyncInterop",
+    "references": [
+        "Unity.MeshSync"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "USE_MESH_SYNC"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.unity.meshsync",
+            "expression": "0.16.4-preview",
+            "define": "USE_MESH_SYNC"
+        }
+    ],
+    "noEngineReferences": false
+}
